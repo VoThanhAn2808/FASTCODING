@@ -1,0 +1,160 @@
+/* Responsive Styles */
+@media screen and (max-width: 1199px) {
+    .header__content-column {
+        padding-top: 100px;
+    }
+
+    .header__text-column h2 {
+        font-size: 4.5rem;
+    }
+
+    .header__text-column p {
+        font-size: 1.5rem;
+    }
+
+    .header__btn-start {
+        padding: 15px 25px;
+    }
+
+    .header__info-vector {
+        top: 200px; 
+        right: 600px; 
+        width: 180px;
+        height: 180px;
+    }
+
+    .image_1 {
+        width: 100%;
+        height: auto;
+        object-fit: contain;
+    }
+
+    .header__counter-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .counter__row-items {
+        justify-content: center;
+    }
+
+    .counter__row-items-1,
+    .counter__row-items-2,
+    .counter__row-items-3 {
+        padding: 10px 20px;
+        font-size: 1.2rem;
+        margin-bottom: 15px;
+    }
+
+    .counter__row-line {
+        margin-top: 0;
+    }
+
+    .header__counter-page {
+        display: flex;
+    }
+
+    .counter__row-page-1 {
+        font-size: 2.5rem;
+    }
+
+    .counter__row-page-2,
+    .counter__row-page-3 {
+        margin-top: 13px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .header__text-column h2 {
+        font-size: 3.5rem;
+    }
+
+    .header__text-column p {
+        font-size: 1.3rem;
+    }
+
+    .header__btn-start {
+        padding: 12px 20px;
+    }
+
+    .header__counter-row {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .counter__row-items-1,
+    .counter__row-items-2,
+    .counter__row-items-3 {
+        padding: 10px 15px;
+        font-size: 1.1rem;
+    }
+
+    .header__counter-page {
+        display: flex;
+    }
+
+    .header__info-vector {
+        top: 150px; 
+        right: 50px; 
+    }
+
+    .image_1 {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .header__content-column {
+        padding-top: 50px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .header__text-column h2 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .header__text-column p {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .header__btn-start {
+        padding: 10px 15px;
+    }
+
+    .counter__row-items-1,
+    .counter__row-items-2,
+    .counter__row-items-3 {
+        font-size: 1rem;
+        padding: 8px 10px;
+    }
+
+    .header__counter-page {
+        display: flex;
+    }
+
+    .header__info-vector {
+        top: 120px; 
+        right: 20px; 
+    }
+
+
+    .image_1 {
+        width: auto;
+        height: auto;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    .header-content {
+        grid-template-columns: 1fr;
+    }
+
+    .header__content-column {
+        padding-top: 20px;
+    }
+}
+

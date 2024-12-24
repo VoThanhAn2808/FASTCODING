@@ -1,0 +1,260 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-size: 1.6rem;
+}
+
+ul,li {
+    list-style: none;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5,h6,p { 
+    margin: 0;
+}
+
+p {
+    font-size: 1.8rem;
+    color: #9EABB2;
+}
+
+h1{
+    font-size: 6.4rem;
+}
+
+h2 {
+    font-size: 4.6rem;
+}
+
+h3 {
+    font-size: 2.6rem;
+}
+
+h4 {
+    font-size: 1.8rem;
+}
+
+h5 {
+    font-size: 1.6rem;
+}
+
+h6 {
+    font-size: 1.4rem;
+}
+
+/* bootstrap */
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container-bg {
+    background-color: #F5F5F5;
+}
+
+.row {
+
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.row.gap {
+    gap: 15px;
+}
+
+.col-1 {
+    flex: 0 0 8.33%;
+    max-width: 8.33%;
+}
+.col-2 {
+    flex: 0 0 16.66%;
+    max-width: 16.66%;
+}
+.col-3 {
+    flex: 0 0 25%;
+    max-width: 25%;
+}
+.col-4 {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+}
+.col-5 {
+    flex: 0 0 41.66%;
+    max-width: 41.66%;
+}
+.col-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.col-7 {
+    flex: 0 0 58.33%;
+    max-width: 58.33%;
+}
+.col-8 {
+    flex: 0 0 66.66%;
+    max-width: 66.66%;
+}
+.col-9 {
+    flex: 0 0 75%;
+    max-width: 75%;
+}
+.col-10 {
+    flex: 0 0 83.33%;
+    max-width: 83.33%;
+}
+.col-11 {
+    flex: 0 0 91.66%;
+    max-width: 91.66%;
+}
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+/* ./bootstrap */
+
+.relative {
+    position: relative;
+}
+
+.g-30 {
+    gap: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.g-45 {
+    gap: 45px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mb-60 {
+    margin-bottom: 60px;
+}
+
+.mb-90 {
+    margin-bottom: 90px;
+}
+
+.mb-120 {
+    margin-bottom: 120px;
+}
+
+.mt-120 {
+    margin-top: 120px;
+}
+
+.pb-120 {
+    padding-bottom: 120px;
+}
+
+.grid-979 {
+    width: 979px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid-1170 {
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid-1430 {
+    width: 1430px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid-1470 {
+    width: 1470px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.grid__full-width {
+    width: 100%;
+}
+
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+}
